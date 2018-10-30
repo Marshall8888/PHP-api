@@ -1,3 +1,8 @@
-<?php
-	$koneksi = mysqli_connect("localhost","root","","php-api")
-	?>
+<?php 
+    $host="localhost";
+    $username ="root";
+    $password = "";
+    $database = "php-api";
+    $koneksi = mysqli_connect($host,$username,$password,$database);
+    
+?>
